@@ -1,4 +1,4 @@
-# news-app
+# Quick-News
 
 How to Run
 1.	Clone this repo
