@@ -30,6 +30,7 @@ body {
 
     .navbar-brand{
         color: white;
+        margin-right: 30px;
         font-size: 2rem;
         text-shadow: 0 13.36px 8.896px #2c482e, 0 -2px 1px rgb(12, 11, 11);
         letter-spacing: 0px;
@@ -38,11 +39,18 @@ body {
         }
     }
 
-    .nav-link{
-        color: white;
-        &:hover{
-            color: darken(white, 10%);
-            text-decoration: none;
+    .nav-item{
+        color: orange;
+        margin-left: 10px;
+   
+
+        .nav-link{
+            color: rgb(255, 255, 255);
+            text-shadow: 0 13.36px 8.896px #252625, 0 -2px 1px rgb(4, 4, 4);
+            &:hover{
+                color: darken(white, 20%);
+                text-decoration: none;
+            }
         }
     }
 
